@@ -19,7 +19,7 @@ def decode_message(s: str, p: str) -> bool:
     return dp[m][n]
 
 # Test cases
-print(decode_message("aa", "a"))    # Output: False
-print(decode_message("aa", "*"))    # Output: True
-print(decode_message("cb", "?a"))   # Output: False
-print(decode_message("abc", "a*c")) # Output: True
+# print(decode_message("aa", "a"))    # Output: False
+# print(decode_message("aa", "*"))    # Output: True
+# print(decode_message("cb", "?a"))   # Output: False
+# print(decode_message("abc", "a*c")) # Output: True
